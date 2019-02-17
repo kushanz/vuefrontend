@@ -1,4 +1,4 @@
-# vuetifyapp
+# vuetify Passport app
 
 ## Project setup
 ```
