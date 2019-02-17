@@ -74,8 +74,6 @@ export default new Vuex.Store({
               localStorage.removeItem('access_token')
               context.commit('destroyToken')
               resolve(response)
-              // console.log(response);
-              // context.commit('addTodo', response.data)
             })
             .catch(error => {
               localStorage.removeItem('access_token')
@@ -92,14 +90,11 @@ export default new Vuex.Store({
           password: credentials.password,
         })
           .then(response => {
-            // console.log(response);
             const token = response.data.data.access_token
 
             localStorage.setItem('access_token', token)
             context.commit('retrieveToken', token)
             resolve(response)
-            // console.log(response);
-            // context.commit('addTodo', response.data)
           })
           .catch(error => {
             console.log(error)
