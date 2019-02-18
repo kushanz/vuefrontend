@@ -26,19 +26,7 @@ export default {
     }
   },
   methods: {
-    // onLoggedIn() {
-    //   this.menus = this.authMenu;
-    // },
-    // onLogOut() {
-    //   this.menus = this.noAuthMenu;
-    // },
-    // onLogOut: function () {
-    //     this.$store.dispatch('logout')
-    //     .then(() => {
-    //       this.$router.push('/login')
-    //     })
-    //     this.menus = this.noAuthMenu;
-    //   }
+ 
   },
   // computed: {
   //   isLoggedIn : function(){ return this.$store.getters.isLoggedIn}
