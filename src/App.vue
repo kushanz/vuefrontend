@@ -1,15 +1,10 @@
 <template>
   <v-app>
     <notifications group="msg" />
-    <!-- <v-content> -->
       <router-view></router-view>
-    <!-- </v-content> -->
   </v-app>
 </template>
-
 <script>
-// import Login from './views/Login'
-// import Register from './views/Register'
 
 export default {
   name: 'App',
