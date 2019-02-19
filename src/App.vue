@@ -1,15 +1,10 @@
 <template>
   <v-app>
     <notifications group="msg" />
-    <!-- <v-content> -->
       <router-view></router-view>
-    <!-- </v-content> -->
   </v-app>
 </template>
-
 <script>
-// import Login from './views/Login'
-// import Register from './views/Register'
 
 export default {
   name: 'App',
@@ -26,19 +21,7 @@ export default {
     }
   },
   methods: {
-    // onLoggedIn() {
-    //   this.menus = this.authMenu;
-    // },
-    // onLogOut() {
-    //   this.menus = this.noAuthMenu;
-    // },
-    // onLogOut: function () {
-    //     this.$store.dispatch('logout')
-    //     .then(() => {
-    //       this.$router.push('/login')
-    //     })
-    //     this.menus = this.noAuthMenu;
-    //   }
+ 
   },
   // computed: {
   //   isLoggedIn : function(){ return this.$store.getters.isLoggedIn}
