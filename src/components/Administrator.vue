@@ -3,6 +3,7 @@
         <v-card-title>
         <v-spacer></v-spacer>
         <v-text-field
+            solo-inverted
             v-model="search"
             append-icon="search"
             label="Search"
