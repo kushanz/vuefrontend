@@ -51,7 +51,13 @@ export default {
     return {
       user_name: '',
       drawer: false,
-      items: [{
+      items: [
+        {
+        href: 'Administrator',
+        title: 'Admin',
+        icon: 'verified_user',
+      },
+      {
         href: 'Home',
         title: 'Home',
         icon: 'home',

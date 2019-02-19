@@ -15,7 +15,7 @@ export default {
     methods: {
         userdata(){
             axios.get('/users').then(function(res) {
-            console.log(res);
+            console.table(res.data);
         })
         }
     },

@@ -40,6 +40,11 @@ let router = new Router({
       redirect: '/dashboard/home',
       children:[
         {
+          path: '/dashboard/admin',
+          name: 'Administrator',
+          component: () => import('./components/Administrator')
+        },
+        {
           path: '/dashboard/home',
           name: 'Home',
           component: () => import('./components/Dashboard')
